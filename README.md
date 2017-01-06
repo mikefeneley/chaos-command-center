@@ -4,7 +4,7 @@ Information security managament system
 
 This is a placeholder repo. No significant work has been done here yet.
 
-**Problem:
+**Problem**
 
 The problem in a nutshell is: security is difficult. 
 
@@ -12,7 +12,7 @@ As computer and information systems increase in complexity, it becomes difficult
 
 To secure systems, tools and controls have to be put in place to deal with threats at multiple layers of technology abstraction. But it is impossible for the average computer user to have the technical domain knowledge to do this. Currently, even infosec professionals cannot stay up to date with all the developments in this field. At best, they can be a hyper specialist and become proficient in one aspect of security… maybe, if they are really good and lucky. To have a reasonable chance of setting up a secure system, the implementation and configuration details need to be abstracted away from the user as much as possible. 
 
-Objective:
+**Objective:**
 
 We aim to provide a simple GUI wrapper for a comprehensive information security management system tool. The core functionality of the tool will be automated deployment and configuration of a variety of critical, open source infosec tools. These tools will either be existing implementations, or ones that we write ourselves.
 
@@ -24,8 +24,7 @@ Tools already exist for all security tasks, but they do not come installed and c
 
 The main design objective is to have the ISMS be composed of tiny, modular tools which provide the desired functionality. These tools than can then be wrapped in a GUI that provides an interface a security naive user can understand.
 
-
-Strategy:
+**Strategy**
 
 The easiest way to move forward on this is to pick one of the features we want to support and build it as an independent command line tool. Once 2-3 tools have been developed or chosen for inclusion, we can can start to write a GUI interface that wraps these tools together to function more as ISMS and less as single function security tools.
 
