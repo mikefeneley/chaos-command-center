@@ -4,7 +4,7 @@ Information security managament system
 
 This is a placeholder repo. No significant work has been done here yet.
 
-Problem:
+**Problem:
 
 The problem in a nutshell is: security is difficult. 
 
